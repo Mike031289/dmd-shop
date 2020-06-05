@@ -285,6 +285,17 @@ h3 {
   display: inline-block;
   background-color: white;
   padding: 15px;
+  width: 280px;
+}
+
+.product__link {
+  display: inline-block;
+  height: 150px;
+  text-align: center;
+}
+.product__link img {
+  height: 100%;
+  width: auto;
 }
 
 .collection__liste {
