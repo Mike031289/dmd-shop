@@ -21,43 +21,70 @@
                 </h1>
                 <nav class="header__nav">
                     <ul class="header__nav--liste">
-                        <li><a href="#">ACCUEIL</a>
+                        <li class="dropdown"><a href="#" class="dropbtn">ACCUEIL</a>
+                            <di class="dropdown-content">
+                                <a href="#">Homme</a>
+                                <a href="#">Femme</a>
+                                <a href="#">Nouvelle Collection</a>
+                            </di>
                         </li>
-                        <li><a href="#">MON COMPTE</a>
+                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE</a>
+                            <di class="dropdown-content">
+                                <a href="#">Connexion</a>
+                                <a href="#">Inscription</a>
+                            </di>
+
                         </li>
-                        <li><a href="#">MON PANNIER</a>
+                        <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a>
+                            <di class="dropdown-content pannier">
+                                <i class="fa fa-shopping-cart"></i><br><em>Votre panier est vide !</em>
+                            </di>
+
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
+
+        <!--Section-1 partie reservé pour la pub avec desimages en fond qui vont déffiler-->
         <section id="advertising">
             <div class="advertising__content">
-
                 <div>
                     <h2 class="logo">dmd</span><br><span class="logo__extention">Since-2012</span>
                     </h2>
                     <p>Jusqu'à 20% de Remise sur vos commandes</p>
-                    <a href="#" class="link__shopping">SHOPPING</a>
+                    <a href="#" class="btn__shopping">SHOPPING</a>
                 </div>
             </div>
         </section>
+
+        <!--Section 2 des nouvelles collections mises en premier plan sur la page d'accueil-->
         <section id="collection">
             <div class="Collection__btn">
                 <button class="Collection__btn--active" type="button">
-                    <a href="#">NEW COLLECTION</a>
+                     <p>NEW COLLECTION</p> 
                 </button>
-                <button class="collection__btn--disable" type="menu">
-                    <a href="#">ALL COLLECTION</a>
-                    <div class="btn-menu"> 
+                <div class="dropdown">
+                    <button class="collection__btn--disable dropbtn" type="menu">
+                      <p>ALL COLLECTION </p>
+               
+                    <div class="dropdown-content"> 
                         <a href="#">Homme</a>
                         <a href="#">Femme</a>
-                    </div> 
+                   </div> 
+                
                 </button>
+                </div>
 
-                <i class="fa fa-search">
-                   <input class="search__area" type="search__area" name="serch-area" placeholder= "SEARCH IN LIST">
+                <div class="dropdown">
+                    <i class="fa fa-search dropbtn">
+                <input class="search__area" type="search__area" name="serch-area" placeholder="SEARCH IN LIST">
                 </i>
+                    <div class="dropdown-content">
+                        <a href="">Homme</a>
+                        <a href="">Femme</a>
+                    </div>
+                </div>
             </div>
             <div class="newCollection__gallery">
                 <div class="newCollection__gallery--product">
@@ -119,16 +146,30 @@
             </div>
         </section>
 
+        <!--Section Opinions clients-->
         <section id="opinion">
             <div class="opinion__way">
+
+                <!--Avis des clients via le service messagerie-->
                 <div class="opinion__way--byMail">
                     <h3>Votre avis nous interesse :</h3>
                     <form>
-                        <label for="name">* Name :</label>
-                        <input type="text" placeholder="Pseudo" name="pseudo" id="pseudo"><br> <br>
-                        <label for="e-mail">* E-mail :</label>
-                        <input type="mail" name="e-mail" id="e-mail" placeholder="Exp: dmd-shop@gmail.com"><br><br>
-
+                        <div class="user_name">
+                            <label for="name"> Name: </label>
+                            <div class="user-icone">
+                                <i class="fa fa-user ">
+                                <input type="text" placeholder="Pseudo" name="pseudo" id="pseudo"  required  >  
+                                </i>
+                            </div>
+                        </div>
+                        <div class="user_email">
+                            <label for="e-mail"> E-mail: </label>
+                            <div class="user_email-icone">
+                                <i class="fa fa-at">
+                                <input type="mail" name="e-mail" id="e-mail" placeholder="Exp: dmd-shop@gmail.com" required>
+                                </i>
+                            </div>
+                        </div><br>
                         <label for="userOpinion">Opinion : </label><br>
                         <textarea name="userOpinion" id="userOpinion">  Laissez votre commentaire ici !  </textarea><br>
                         <input type="submit" name="userOpinion" value="Send" id="userOpinion__btn">
@@ -139,9 +180,9 @@
                             <a href="#">Sign-Up</a>
                         </button>
                     </form>
-
-
                 </div>
+
+                <!--Avis et note des clients en marquant les étoiles-->
                 <div class="opinion__way--byNote">
                     <h3>Meilleurs commentaires :</h3>
                     <p><i class="fa fa-user"></i> <strong> Mike </strong>
@@ -150,7 +191,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-full"></i>
+                        <i class='fas fa-star-half-alt'></i>
                         <strong> Excélent </strong><br>
                         <em>Commenté en France le 20 Mai 2020<br>
                             couleure noire: | Taille: M | <span style="color: #d10f0f; font-weight: bold" >Achat vérifier</span> </em>
@@ -175,7 +216,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-full"></i>
+                        <i class='fas fa-star-half-alt'></i>
                         <i class="fa fa-star-o"></i>
                         <strong> Bonne qualité  </strong><br>
                         <em>Commenté en France le 20 décembre 2019<br>
@@ -189,6 +230,7 @@
             </div>
         </section>
 
+        <!--Section mode de payement-->
         <section id="payementMode">
             <h3>réglez vos achats en toute sécurité </h3>
             <div class="payement__card">
@@ -208,6 +250,7 @@
             </div>
         </section>
 
+        <!--Pied de la page-->
         <footer id="footer">
             <div class="footer__information">
 
@@ -221,11 +264,6 @@
                     </li>
 
                 </ul>
-
-
-                <!--cet paragraphe joue juste le rôle de bordure droit appliqué à tous les paragraphes du block. il permet à liste ci-descu d'avoir une bordure droite comme tous les autres élémnts de ce blcock-->
-
-
                 <p>
                     <a href="">INSCRIPTION</a><br><br> Devenez menmbre et <br> bénéficiez de -20%<br>sur vos commandes
                 </p>
@@ -235,7 +273,7 @@
                     <br> qualité au design exceptionnel de notre marque <strong>dmd</strong>
 
                 </p>
-                <p class="icons">
+                <p class="icons"><a href="#">CONTACTES</a><br><br>
 
                     <a href=""><i class="fa fa-envelope"></i> dmd-shop@gmail.com </a><br>
                     <a href=""><i class="fa fa-facebook-square"></i> dmd-shop Official</a><br>
