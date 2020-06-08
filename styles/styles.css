@@ -27,26 +27,17 @@ body {
 
 #advertising {
     height: 460px;
-    padding-top: 80px;
     width: 100%;
-    background-color: aliceblue;
-}
-
-.advertising__img {
-    max-width: auto;
-    height: auto;
-    margin: 10px 30px 10px 30px;
-    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://static.pullandbear.net/2/photos//2020/I/0/2/p/5713/515/445/04/5713515445_5_1_8.jpg?t=1590507672761&imwidth=750");
 }
 
 .advertising__content {
-    margin: 30px 20px;
+    padding: 60px;
     width: 100%;
+    height: auto;
     text-align: center;
-}
-
-.advertising__content div {
-    background-position: center;
 }
 
 .logo {
@@ -289,22 +280,21 @@ h3 {
 }
 
 .product {
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
     background-color: white;
-    padding: 15px;
     width: 280px;
 }
 
 .product__link {
     display: inline-block;
-    height: 150px;
+    height: 300px;
     text-align: center;
 }
 
 .product__link img {
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 .collection__liste {
@@ -488,7 +478,14 @@ h3 {
 
 .newCollection__gallery i {
     cursor: pointer;
+    float: right;
     position: absolute;
+    background-color: white;
+    border-radius: 100em;
+}
+
+.newCollection__gallery i:hover {
+    color: rgb(255, 0, 0);
 }
 
 #footer .icons {
