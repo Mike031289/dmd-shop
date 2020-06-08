@@ -7,7 +7,6 @@
 #container {
     max-width: 1440px;
     min-width: 320px;
-    background-color: #1e3149;
 }
 
 .pannier {
@@ -30,7 +29,7 @@ body {
     height: 460px;
     padding-top: 80px;
     width: 100%;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .advertising__img {
@@ -150,10 +149,10 @@ a:hover {
 }
 
 .Collection__btn {
-    width: 95%;
+    width: auto;
     background-color: white;
-    margin: 20px 15px 0px 25px;
     display: flex;
+    margin: 50px auto;
     align-items: center;
 }
 
@@ -165,7 +164,7 @@ a:hover {
     border: 1px solid black;
     box-shadow: 4px 3px 4px 3px;
     width: 250px;
-    margin: 50px 60px;
+    margin: 20px 80px 20px 160px;
 }
 
 .Collection__btn--active p {
@@ -179,7 +178,7 @@ a:hover {
     border-radius: 5px;
     border: 1px solid black;
     width: 250px;
-    margin: 50px 60px;
+    margin: 20px 160px 20px 80px;
 }
 
 .collection__btn--disable p {
@@ -265,9 +264,8 @@ h3 {
 
 #collection {
     margin: auto;
-    margin-bottom: 10px;
-    max-width: 1100px;
-    background-color: hsl(204, 21%, 91%);
+    text-align: center;
+    background-color: white;
     border-radius: 4px;
 }
 
@@ -279,7 +277,8 @@ h3 {
 
 .newCollection__gallery {
     width: auto;
-    margin: 20px;
+    margin: auto;
+    background-color: white;
 }
 
 .newCollection__gallery .price {
@@ -324,7 +323,7 @@ h3 {
 
 #opinion {
     margin: auto;
-    width: 99%;
+    width: 100%;
     height: auto;
 }
 
@@ -346,8 +345,8 @@ h3 {
 
 #payementMode {
     margin: auto;
-    width: 98%;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     text-align: center;
     border: 5px solid #1e3149;
     border-radius: 10px;
@@ -417,8 +416,7 @@ h3 {
 
 #footer {
     margin: auto;
-    border: 2px solid black;
-    width: 98%;
+    width: 100%;
     height: 450px;
     padding: 5px;
     border-radius: 5px;
@@ -428,9 +426,8 @@ h3 {
 .copyright {
     margin-top: 20px;
     padding-top: 33px;
-    width: 98%;
+    width: 100%;
     text-align: center;
-    background-color: white;
     height: auto;
 }
 
@@ -457,9 +454,8 @@ h3 {
 
 .footer__information {
     margin-bottom: 20px;
-    width: 98%;
+    width: 100%;
     height: auto;
-    background-color: white;
     display: flex;
     align-items: center;
 }
@@ -492,6 +488,7 @@ h3 {
 
 .newCollection__gallery i {
     cursor: pointer;
+    position: absolute;
 }
 
 #footer .icons {
