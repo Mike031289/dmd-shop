@@ -1,578 +1,560 @@
-/*général*/
-
-* {
-    box-sizing: border-box;
-}
-
-#container {
-    max-width: 1440px;
-    min-width: 320px;
-}
-
-.pannier {
-    height: 100px;
-    width: 150px;
-    text-align: center;
-}
-
-body {
-    background-color: white;
-}
-
-.product p,
-.footer__information p {
-    font-weight: normal;
-    font-style: oblique;
-}
-
-#advertising {
-    height: 460px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("https://static.pullandbear.net/2/photos//2020/I/0/2/p/5713/515/445/04/5713515445_5_1_8.jpg?t=1590507672761&imwidth=750");
-}
-
-.advertising__content {
-    padding: 60px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.logo {
-    font-size: 30px;
-    font-family: monospace;
-    border-bottom: 1px solid;
-    margin: auto;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    width: 7%;
-}
-
-.logo__extention {
-    font-size: 15px;
-    color: rgb(19, 0, 0);
-    font-style: normal;
-    background-color: white;
-}
-
-.advertising__content p {
-    color: red;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-
-/*header & nav */
-
-#header {
-    height: 100px;
-    width: 100%;
-    background-color: #1e3149;
-    margin: auto;
-    color: white;
-}
-
-.header__title--red-dote {
-    color: rgb(197, 34, 34);
-    font: 70px bold;
-}
-
-.header__nav--liste li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 50px;
-}
-
-.header__nav {
-    margin: 10px 10px;
-    float: right;
-}
-
-
-/*a*/
-
-.header__nav--liste a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: rgb(197, 34, 34);
-}
-
-
-/*button*/
-
-
-/*dropdown-button*/
-
-.opinion__SignUp--btn {
-    background-color: #1e3149;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.opinion__SignUp--btn a {
-    text-decoration: none;
-    color: white;
-    padding: 2px;
-}
-
-#userOpinion__btn {
-    background-color: #1e3149;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid;
-    width: 75px;
-}
-
-#userOpinion__btn:hover {
-    border: 1px solid black;
-    background-color: #d8dadd;
-    color: black;
-}
-
-.Collection__btn {
-    width: auto;
-    background-color: white;
-    display: flex;
-    margin: 50px auto;
-    align-items: center;
-}
-
-.Collection__btn--active {
-    background-color: #1e3149;
-    padding: 12px;
-    border-radius: 5px;
-    line-height: 30px;
-    border: 1px solid black;
-    box-shadow: 4px 3px 4px 3px;
-    width: 250px;
-    margin: 20px 80px 20px 160px;
-}
-
-.Collection__btn--active p {
-    color: white;
-    font-weight: bold;
-}
-
-.collection__btn--disable {
-    padding: 12px;
-    line-height: 30px;
-    border-radius: 5px;
-    border: 1px solid black;
-    width: 250px;
-    margin: 20px 160px 20px 80px;
-}
-
-.collection__btn--disable p {
-    font-weight: bold;
-}
-
-.btn__shopping {
-    text-decoration: none;
-    background-color: #1e3149;
-    color: whitesmoke;
-    padding: 13px;
-    font-style: normal;
-    border-radius: 5px;
-}
-
-
-/*dropdown-button*/
-
-.dropbtn {
-    display: inline-block;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    color: black;
-    z-index: 1;
-    width: 200px;
-    box-shadow: 0px 8px 7px 0px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 30px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover,
-#collection .dropdown-content a:hover {
-    background-color: black;
-    color: white;
-}
-
-.dropbtn:hover {
-    color: black;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/*h1*/
-
-.header__title {
-    font-weight: bold;
-    font-size: 300%;
-    margin: 10px auto;
-    float: left;
-    padding-left: 20px;
-}
-
-
-/*h3*/
-
-h3 {
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-
-/*section 2 des nouvelles collection*/
-
-#collection {
-    margin: auto;
-    text-align: center;
-    background-color: white;
-    border-radius: 4px;
-}
-
-#collection a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(26, 23, 23);
-}
-
-.newCollection__gallery {
-    width: auto;
-    margin: auto;
-    background-color: white;
-}
-
-.newCollection__gallery .price {
-    color: red;
-    float: right;
-    font-weight: bold;
-    font-style: normal;
-}
-
-.product {
-    margin: 20px;
-    display: inline-block;
-    background-color: white;
-    width: 280px;
-}
-
-.product__link {
-    display: inline-block;
-    height: 300px;
-    text-align: center;
-}
-
-.product__link img {
-    height: 100%;
-    width: 100%;
-}
-
-.collection__liste {
-    list-style: none;
-}
-
-.search__area {
-    max-width: 500px;
-    height: 40px;
-    padding-left: 2px;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    border: none;
-    overflow: auto;
-}
-
-#opinion {
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
-.opinion__way {
-    margin: 10px auto;
-    background-color: white;
-    display: flex;
-    width: 98%;
-}
-
-.opinion__way input {
-    width: 350px;
-    height: 35px;
-    padding: 10px;
-}
-
-
-/*section moyen de paiment*/
-
-#payementMode {
-    margin: auto;
-    width: auto;
-    height: 200px;
-    text-align: center;
-    border-bottom: 5px solid #1e3149;
-    border-top: 5px solid #1e3149;
-    background-color: white;
-}
-
-.payement__card {
-    margin: 10px 20px;
-    padding: 5px 5px;
-    background-color: white;
-    display: flex;
-}
-
-.payement__card p {
-    margin: auto;
-    padding: 2px;
-}
-
-
-/*p*/
-
-.opinion__way--byMail p {
-    color: hsl(212, 58%, 42%);
-    text-decoration: underline;
-}
-
-.opinion__way--byMail p:hover {
-    color: crimson;
-}
-
-
-/*form*/
-
-#userOpinion {
-    width: 80%;
-    height: 200px;
-    overflow: scroll;
-    color: grey;
-}
-
-.opinion__way--byMail label {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.opinion__way--byMail {
-    margin: 20px 20px 20px 20px;
-    background-color: hsl(204, 21%, 91%);
-    padding: 30px;
-    width: 50%;
-    text-align: center;
-    border-radius: 4px;
-}
-
-.opinion__way--byNote {
-    background-color: hsl(204, 21%, 91%);
-    margin: 20px 20px 20px 20px;
-    padding: 30px;
-    width: 50%;
-    text-align: center;
-    border-radius: 4px;
-}
-
-
-/*footer*/
-
-#footer {
-    margin: auto;
-    width: 100%;
-    height: 450px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.copyright {
-    margin-top: 20px;
-    padding-top: 33px;
-    width: 100%;
-    text-align: center;
-    height: auto;
-}
-
-.copyright p {
-    color: rgb(49, 48, 48);
-}
-
-.copyright__logo {
-    background-color: black;
-    text-align: center;
-    color: white;
-    width: 50px;
-    margin: auto;
-}
-
-.copyright__logo--extention {
-    font-size: xx-small;
-    text-align: center;
-    text-decoration: underline;
-    background-color: white;
-    color: black;
-    font-weight: bold;
-}
-
-.footer__information {
-    margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-.footer__information p {
-    float: left;
-    border-right: 1px solid black;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.footer__information li {
-    list-style: none;
-    margin-left: 30px;
-}
-
-.footer__information ul {
-    border-right: 1px solid black;
-    padding-right: 50px;
-}
-
-.footer__information a {
-    text-decoration: none;
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-/*icones*/
-
-.newCollection__gallery i {
-    cursor: pointer;
-    float: right;
-    position: absolute;
-    background-color: white;
-    border-radius: 100em;
-}
-
-.newCollection__gallery i:hover {
-    color: rgb(255, 0, 0);
-}
-
-#footer .icons {
-    float: right;
-    border-right: none;
-}
-
-.fa-envelope,
-.fa-user,
-.fa-at {
-    color: #747171;
-    font-size: large;
-}
-
-.user-icone i,
-.fa-at {
-    background-color: rgb(207, 217, 219);
-    padding-left: 9px;
-    border: 1px solid rgba(149, 142, 142, 0.685);
-    border-radius: 5px;
-}
-
-.fa-facebook-square {
-    color: #2c56b8;
-    font-size: x-large;
-}
-
-.fa-instagram {
-    color: #d10f0f;
-    font-size: x-large;
-}
-
-.fa-mobile {
-    color: black;
-    font-size: x-large;
-}
-
-.fa-star,
-.fa-star-half-full,
-.fa-star-o,
-.fa-star-half-alt {
-    color: rgb(253, 200, 55);
-    font-size: larger;
-}
-
-.fa-thumbs-up {
-    color: rgb(58, 93, 209);
-    cursor: pointer;
-}
-
-.fa-thumbs-o-down {
-    cursor: pointer;
-}
-
-.fa-cc-visa,
-.fa-cc-mastercard,
-.fa-cc-amex,
-.fa-cc-paypal,
-.fa-cc-apple-pay {
-    font-size: 70px;
-}
-
-.fa-cc-visa {
-    color: #1d70be;
-}
-
-.fa-cc-mastercard {
-    color: #ec660d;
-}
-
-.fa-cc-amex {
-    color: #dbbc57;
-}
-
-.fa-cc-paypal {
-    color: #526de7;
-}
-
-.fa-search {
-    border-bottom: 1px solid black;
-    padding-left: 10px;
-    font-size: x-large;
-    margin: auto;
-}
-
-.fa-shopping-cart {
-    font-size: xx-large;
-    color: #365ebd;
-    padding-top: 30px;
-    cursor: pointer;
-}
+                                                                                                                    /*général*/
+                                                                                                                
+                                                                                                                * {
+                                                                                                                    box-sizing: border-box;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #container {
+                                                                                                                    max-width: 1440px;
+                                                                                                                    min-width: 320px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .pannier {
+                                                                                                                    height: 100px;
+                                                                                                                    width: 150px;
+                                                                                                                    text-align: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                body {
+                                                                                                                    background-color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .product p,
+                                                                                                                .footer__information p {
+                                                                                                                    font-weight: normal;
+                                                                                                                    font-style: oblique;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #advertising {
+                                                                                                                    height: 460px;
+                                                                                                                    width: 100%;
+                                                                                                                    background-repeat: no-repeat;
+                                                                                                                    background-size: cover;
+                                                                                                                    background-image: url("https://static.pullandbear.net/2/photos//2020/I/0/2/p/5713/515/445/04/5713515445_5_1_8.jpg?t=1590507672761&imwidth=750");
+                                                                                                                }
+                                                                                                                
+                                                                                                                .advertising__content {
+                                                                                                                    padding: 60px;
+                                                                                                                    width: 100%;
+                                                                                                                    height: auto;
+                                                                                                                    text-align: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .logo {
+                                                                                                                    font-size: 30px;
+                                                                                                                    font-family: monospace;
+                                                                                                                    border-bottom: 1px solid;
+                                                                                                                    margin: auto;
+                                                                                                                    font-weight: bold;
+                                                                                                                    color: white;
+                                                                                                                    background-color: black;
+                                                                                                                    width: 7%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .logo__extention {
+                                                                                                                    font-size: 15px;
+                                                                                                                    color: rgb(19, 0, 0);
+                                                                                                                    font-style: normal;
+                                                                                                                    background-color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .advertising__content p {
+                                                                                                                    color: red;
+                                                                                                                    font-size: 40px;
+                                                                                                                    font-style: normal;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                /*header & nav */
+                                                                                                                
+                                                                                                                #header {
+                                                                                                                    height: 100px;
+                                                                                                                    width: 100%;
+                                                                                                                    background-color: #1e3149;
+                                                                                                                    margin: auto;
+                                                                                                                    color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .header__title--red-dote {
+                                                                                                                    color: rgb(197, 34, 34);
+                                                                                                                    font: 70px bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .header__nav--liste li {
+                                                                                                                    list-style: none;
+                                                                                                                    display: inline-block;
+                                                                                                                    margin-right: 50px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .header__nav {
+                                                                                                                    margin: 10px 10px;
+                                                                                                                    float: right;
+                                                                                                                }
+                                                                                                                /*a*/
+                                                                                                                
+                                                                                                                .header__nav--liste a {
+                                                                                                                    color: white;
+                                                                                                                    text-decoration: none;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                a:hover {
+                                                                                                                    color: rgb(197, 34, 34);
+                                                                                                                }
+                                                                                                                /*button*/
+                                                                                                                /*dropdown-button*/
+                                                                                                                
+                                                                                                                .opinion__SignUp--btn {
+                                                                                                                    background-color: #1e3149;
+                                                                                                                    padding: 10px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__SignUp--btn a {
+                                                                                                                    text-decoration: none;
+                                                                                                                    color: white;
+                                                                                                                    padding: 2px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #userOpinion__btn {
+                                                                                                                    background-color: #1e3149;
+                                                                                                                    color: white;
+                                                                                                                    padding: 10px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    border: 1px solid;
+                                                                                                                    width: 75px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #userOpinion__btn:hover {
+                                                                                                                    border: 1px solid black;
+                                                                                                                    background-color: #d8dadd;
+                                                                                                                    color: black;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .Collection__btn {
+                                                                                                                    width: auto;
+                                                                                                                    background-color: white;
+                                                                                                                    display: flex;
+                                                                                                                    margin: 50px auto;
+                                                                                                                    align-items: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .Collection__btn--active {
+                                                                                                                    background-color: #1e3149;
+                                                                                                                    padding: 12px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    line-height: 30px;
+                                                                                                                    border: 1px solid black;
+                                                                                                                    box-shadow: 4px 3px 4px 3px;
+                                                                                                                    width: 250px;
+                                                                                                                    margin: 20px 80px 20px 160px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .Collection__btn--active p {
+                                                                                                                    color: white;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .collection__btn--disable {
+                                                                                                                    padding: 12px;
+                                                                                                                    line-height: 30px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    border: 1px solid black;
+                                                                                                                    width: 250px;
+                                                                                                                    margin: 20px 160px 20px 80px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .collection__btn--disable p {
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .btn__shopping {
+                                                                                                                    text-decoration: none;
+                                                                                                                    background-color: #1e3149;
+                                                                                                                    color: whitesmoke;
+                                                                                                                    padding: 13px;
+                                                                                                                    font-style: normal;
+                                                                                                                    border-radius: 5px;
+                                                                                                                }
+                                                                                                                /*dropdown-button*/
+                                                                                                                
+                                                                                                                .dropbtn {
+                                                                                                                    display: inline-block;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropdown {
+                                                                                                                    position: relative;
+                                                                                                                    display: inline-block;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropdown-content {
+                                                                                                                    display: none;
+                                                                                                                    position: absolute;
+                                                                                                                    background-color: white;
+                                                                                                                    color: black;
+                                                                                                                    z-index: 1;
+                                                                                                                    width: 200px;
+                                                                                                                    box-shadow: 0px 8px 7px 0px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropdown-content a {
+                                                                                                                    color: black;
+                                                                                                                    padding: 12px 30px;
+                                                                                                                    text-decoration: none;
+                                                                                                                    display: block;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropdown-content a:hover,
+                                                                                                                #collection .dropdown-content a:hover {
+                                                                                                                    background-color: black;
+                                                                                                                    color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropbtn:hover {
+                                                                                                                    color: black;
+                                                                                                                    font-weight: bold;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    cursor: pointer;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .dropdown:hover .dropdown-content {
+                                                                                                                    display: block;
+                                                                                                                }
+                                                                                                                /*h1*/
+                                                                                                                
+                                                                                                                .header__title {
+                                                                                                                    font-weight: bold;
+                                                                                                                    font-size: 300%;
+                                                                                                                    margin: 10px auto;
+                                                                                                                    float: left;
+                                                                                                                    padding-left: 20px;
+                                                                                                                }
+                                                                                                                /*h3*/
+                                                                                                                
+                                                                                                                h3 {
+                                                                                                                    text-transform: uppercase;
+                                                                                                                    text-decoration: underline;
+                                                                                                                }
+                                                                                                                /*section 2 des nouvelles collection*/
+                                                                                                                
+                                                                                                                #collection {
+                                                                                                                    margin: auto;
+                                                                                                                    text-align: center;
+                                                                                                                    background-color: white;
+                                                                                                                    border-radius: 4px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #collection a {
+                                                                                                                    text-decoration: none;
+                                                                                                                    font-weight: bold;
+                                                                                                                    color: rgb(26, 23, 23);
+                                                                                                                }
+                                                                                                                
+                                                                                                                .newCollection__gallery {
+                                                                                                                    width: auto;
+                                                                                                                    margin: auto;
+                                                                                                                    background-color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .newCollection__gallery .price {
+                                                                                                                    color: red;
+                                                                                                                    float: right;
+                                                                                                                    font-weight: bold;
+                                                                                                                    font-style: normal;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .product {
+                                                                                                                    margin: 20px;
+                                                                                                                    display: inline-block;
+                                                                                                                    background-color: white;
+                                                                                                                    width: 280px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .product__link {
+                                                                                                                    display: inline-block;
+                                                                                                                    height: 300px;
+                                                                                                                    text-align: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .product__link img {
+                                                                                                                    height: 100%;
+                                                                                                                    width: 100%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .collection__liste {
+                                                                                                                    list-style: none;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .search__area {
+                                                                                                                    max-width: 500px;
+                                                                                                                    height: 40px;
+                                                                                                                    padding-left: 2px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    margin-bottom: 0px;
+                                                                                                                    border: none;
+                                                                                                                    overflow: auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                #opinion {
+                                                                                                                    margin: auto;
+                                                                                                                    width: 100%;
+                                                                                                                    height: auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way {
+                                                                                                                    margin: 10px auto;
+                                                                                                                    background-color: white;
+                                                                                                                    display: flex;
+                                                                                                                    width: 98%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way input {
+                                                                                                                    width: 350px;
+                                                                                                                    height: 35px;
+                                                                                                                    padding: 10px;
+                                                                                                                }
+                                                                                                                /*section moyen de paiment*/
+                                                                                                                
+                                                                                                                #payementMode {
+                                                                                                                    margin: auto;
+                                                                                                                    width: auto;
+                                                                                                                    height: 200px;
+                                                                                                                    text-align: center;
+                                                                                                                    border-bottom: 5px solid #1e3149;
+                                                                                                                    background-color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .payement__card {
+                                                                                                                    margin: 10px 20px;
+                                                                                                                    padding: 5px 5px;
+                                                                                                                    background-color: white;
+                                                                                                                    display: flex;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .payement__card p {
+                                                                                                                    margin: auto;
+                                                                                                                    padding: 2px;
+                                                                                                                }
+                                                                                                                /*p*/
+                                                                                                                
+                                                                                                                .opinion__way--byMail p {
+                                                                                                                    color: hsl(212, 58%, 42%);
+                                                                                                                    text-decoration: underline;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way--byMail p:hover {
+                                                                                                                    color: crimson;
+                                                                                                                }
+                                                                                                                /*form*/
+                                                                                                                
+                                                                                                                #userOpinion {
+                                                                                                                    width: 80%;
+                                                                                                                    height: 200px;
+                                                                                                                    overflow: scroll;
+                                                                                                                    color: grey;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way--byMail label {
+                                                                                                                    font-size: 20px;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way--byMail {
+                                                                                                                    margin: 20px 20px 20px 20px;
+                                                                                                                    background-color: hsl(204, 21%, 91%);
+                                                                                                                    padding: 30px;
+                                                                                                                    width: 50%;
+                                                                                                                    text-align: center;
+                                                                                                                    border-radius: 4px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .opinion__way--byNote {
+                                                                                                                    background-color: hsl(204, 21%, 91%);
+                                                                                                                    margin: 20px 20px 20px 20px;
+                                                                                                                    padding: 30px;
+                                                                                                                    width: 50%;
+                                                                                                                    text-align: center;
+                                                                                                                    border-radius: 4px;
+                                                                                                                }
+                                                                                                                /*footer*/
+                                                                                                                
+                                                                                                                #footer {
+                                                                                                                    margin: auto;
+                                                                                                                    width: 100%;
+                                                                                                                    height: 450px;
+                                                                                                                    padding: 5px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                    background-color: white;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copyright {
+                                                                                                                    margin-top: 20px;
+                                                                                                                    padding-top: 33px;
+                                                                                                                    width: 100%;
+                                                                                                                    text-align: center;
+                                                                                                                    height: auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copyright p {
+                                                                                                                    color: rgb(49, 48, 48);
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copyright__logo {
+                                                                                                                    background-color: black;
+                                                                                                                    text-align: center;
+                                                                                                                    color: white;
+                                                                                                                    width: 50px;
+                                                                                                                    margin: auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copyright__logo--extention {
+                                                                                                                    font-size: xx-small;
+                                                                                                                    text-align: center;
+                                                                                                                    text-decoration: underline;
+                                                                                                                    background-color: white;
+                                                                                                                    color: black;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .footer__information {
+                                                                                                                    margin-bottom: 20px;
+                                                                                                                    width: 100%;
+                                                                                                                    height: auto;
+                                                                                                                    display: flex;
+                                                                                                                    align-items: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .footer__information p {
+                                                                                                                    float: left;
+                                                                                                                    border-right: 1px solid black;
+                                                                                                                    padding-right: 50px;
+                                                                                                                    padding-left: 50px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .footer__information li {
+                                                                                                                    list-style: none;
+                                                                                                                    margin-left: 30px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .footer__information ul {
+                                                                                                                    border-right: 1px solid black;
+                                                                                                                    padding-right: 50px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .footer__information a {
+                                                                                                                    text-decoration: none;
+                                                                                                                    font-weight: bold;
+                                                                                                                    font-style: normal;
+                                                                                                                }
+                                                                                                                /*icones*/
+                                                                                                                
+                                                                                                                .newCollection__gallery i {
+                                                                                                                    cursor: pointer;
+                                                                                                                    float: right;
+                                                                                                                    position: absolute;
+                                                                                                                    background-color: white;
+                                                                                                                    border-radius: 100em;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .newCollection__gallery i:hover {
+                                                                                                                    color: rgb(255, 0, 0);
+                                                                                                                }
+                                                                                                                
+                                                                                                                #footer .icons {
+                                                                                                                    float: right;
+                                                                                                                    border-right: none;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-envelope,
+                                                                                                                .fa-user,
+                                                                                                                .fa-at {
+                                                                                                                    color: #747171;
+                                                                                                                    font-size: large;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .user-icone i,
+                                                                                                                .fa-at {
+                                                                                                                    background-color: rgb(207, 217, 219);
+                                                                                                                    padding-left: 9px;
+                                                                                                                    border: 1px solid rgba(149, 142, 142, 0.685);
+                                                                                                                    border-radius: 5px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-facebook-square {
+                                                                                                                    color: #2c56b8;
+                                                                                                                    font-size: x-large;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-instagram {
+                                                                                                                    color: #d10f0f;
+                                                                                                                    font-size: x-large;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-mobile {
+                                                                                                                    color: black;
+                                                                                                                    font-size: x-large;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-star,
+                                                                                                                .fa-star-half-full,
+                                                                                                                .fa-star-o,
+                                                                                                                .fa-star-half-alt {
+                                                                                                                    color: rgb(253, 200, 55);
+                                                                                                                    font-size: larger;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-thumbs-up {
+                                                                                                                    color: rgb(58, 93, 209);
+                                                                                                                    cursor: pointer;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-thumbs-o-down {
+                                                                                                                    cursor: pointer;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-cc-visa,
+                                                                                                                .fa-cc-mastercard,
+                                                                                                                .fa-cc-amex,
+                                                                                                                .fa-cc-paypal,
+                                                                                                                .fa-cc-apple-pay {
+                                                                                                                    font-size: 70px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-cc-visa {
+                                                                                                                    color: #1d70be;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-cc-mastercard {
+                                                                                                                    color: #ec660d;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-cc-amex {
+                                                                                                                    color: #dbbc57;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-cc-paypal {
+                                                                                                                    color: #526de7;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-search {
+                                                                                                                    border-bottom: 1px solid black;
+                                                                                                                    padding-left: 10px;
+                                                                                                                    font-size: x-large;
+                                                                                                                    margin: auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .fa-shopping-cart {
+                                                                                                                    font-size: 40px;
+                                                                                                                    color: #365ebd;
+                                                                                                                    padding-top: 20px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .badge {
+                                                                                                                    position: absolute;
+                                                                                                                    border-radius: 50%;
+                                                                                                                    padding: 5px 10px;
+                                                                                                                    background: red;
+                                                                                                                    color: white;
+                                                                                                                    font-size: small;
+                                                                                                                    top: -0.2px;
+                                                                                                                    margin-top: 10px;
