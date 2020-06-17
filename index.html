@@ -193,22 +193,17 @@
                 <div class="opinion__way--byMail">
                     <h3>Votre avis nous interesse :</h3>
                     <form>
-                        <div class="user_name">
-                            <label for="name"> Name </label>
-                            <div class="user-icone">
-                                <i class="fa fa-user ">
-                                <input type="text" placeholder="Pseudo" name="pseudo" id="pseudo"  required  >  
-                                </i>
-                            </div>
-                        </div>
-                        <div class="user_email">
-                            <label for="e-mail"> E-mail </label>
-                            <div class="user_email-icone">
-                                <i class="fa fa-at">
-                                <input type="mail" name="e-mail" id="e-mail" placeholder="Exp: dmd-shop@gmail.com" required>
-                                </i>
-                            </div>
-                        </div><br>
+                        <label for="name"> Name </label>
+                        <br>
+                        <i class="fa fa-user user-icone">
+                            <input type="text"  name="pseudo" id="pseudo" placeholder="Pseudo" required  >  
+                        </i>
+                        <br>
+                        <label for="e-mail"> E-mail </label><br>
+                        <i class="fa fa-envelope e-mail-icone">
+                            <input type="mail" name="e-mail" id="e-mail" placeholder="Exp: dmd-shop@gmail.com" required>
+                        </i>
+                        <br>
                         <label for="userOpinion">Opinion  </label><br>
                         <textarea name="userOpinion" id="userOpinion">  Laissez votre commentaire ici !  </textarea><br>
                         <input type="submit" name="userOpinion" value="Send" id="userOpinion__btn">

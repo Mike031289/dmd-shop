@@ -345,7 +345,7 @@
                                                                                                                             .opinion__way--byMail p:hover {
                                                                                                                                 color: crimson;
                                                                                                                             }
-                                                                                                                            /*form*/
+                                                                                                                            /*OPinion form*/
                                                                                                                             
                                                                                                                             #userOpinion {
                                                                                                                                 width: 80%;
@@ -467,13 +467,14 @@
                                                                                                                             
                                                                                                                             .fa-envelope,
                                                                                                                             .fa-user,
-                                                                                                                            .fa-at {
+                                                                                                                            .fa-at,
+                                                                                                                            .fa-lock {
                                                                                                                                 color: #747171;
                                                                                                                                 font-size: large;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .user-icone i,
-                                                                                                                            .fa-at {
+                                                                                                                            .user-icone,
+                                                                                                                            .e-mail-icone {
                                                                                                                                 background-color: rgb(207, 217, 219);
                                                                                                                                 padding-left: 9px;
                                                                                                                                 border: 1px solid rgba(149, 142, 142, 0.685);
@@ -558,4 +559,27 @@
                                                                                                                                 font-size: small;
                                                                                                                                 top: -0.2px;
                                                                                                                                 margin-top: 10px;
+                                                                                                                            }
+                                                                                                                            /*Sign Up*/
+                                                                                                                            
+                                                                                                                            #sign-up {
+                                                                                                                                text-align: center;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up input {
+                                                                                                                                width: 500px;
+                                                                                                                                padding: 10px;
+                                                                                                                                font-size: 15px;
+                                                                                                                                border: none;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up i {
+                                                                                                                                font-size: x-large;
+                                                                                                                                padding: 5px;
+                                                                                                                                border: 1px solid grey;
+                                                                                                                                border-radius: 5px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up span {
+                                                                                                                                color: red;
                                                                                                                             }
