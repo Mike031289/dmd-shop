@@ -560,7 +560,7 @@
                                                                                                                                 top: -0.2px;
                                                                                                                                 margin-top: 10px;
                                                                                                                             }
-                                                                                                                            /*Sign Up*/
+                                                                                                                            /*Sign-Up*/
                                                                                                                             
                                                                                                                             #sign-up {
                                                                                                                                 text-align: center;
@@ -580,6 +580,25 @@
                                                                                                                                 border-radius: 5px;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            #sign-up span {
+                                                                                                                            .sign-up__remise {
                                                                                                                                 color: red;
+                                                                                                                            }
+                                                                                                                            /*Sign-In*/
+                                                                                                                            
+                                                                                                                            #sign-in {
+                                                                                                                                text-align: center;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-in input {
+                                                                                                                                width: 500px;
+                                                                                                                                padding: 10px;
+                                                                                                                                font-size: 15px;
+                                                                                                                                border: none;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-in i {
+                                                                                                                                font-size: x-large;
+                                                                                                                                padding: 5px;
+                                                                                                                                border: 1px solid grey;
+                                                                                                                                border-radius: 5px;
                                                                                                                             }
