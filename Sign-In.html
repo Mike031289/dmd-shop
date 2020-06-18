@@ -14,7 +14,7 @@
 <body>
     <div id="container">
         <header>
-            <div id="header">
+            <div id="header" class="sign-up__header">
                 <h1 class="header__title">Don Mike Design Shop <span class="header__title--red-dote">.</span></h1>
                 <nav class="header__nav">
                     <ul class="header__nav--liste">
@@ -46,9 +46,10 @@
         <div id="sign-in">
             <form>
                 <h4>Connecter vous et découvrez nos nouvels arrivage</h4>
+                <p>__________________________________</p>
                 <br>
                 <i class="fa fa-user"> 
-                   <input type="text" name="pseudo"  placeholder="Choisisez Votre Pseudo" required>
+                   <input type="text" name="pseudo"  placeholder="Votre Pseudo" required>
                 </i>
                 <br><br>
                 <i class="fa fa-envelope"> 
@@ -56,14 +57,10 @@
                 </i>
                 <br><br>
                 <i class="fas fa-lock"> 
-                   <input type="password" name="password" placeholder="choisissez votre mot de passe" >
+                   <input type="password" name="password" id="password" placeholder="votre mot de passe" ><i class="far fa-eye-slash"></i>
                 </i>
                 <br><br>
-                <p>
-                    <a href="#">Terms </a> et <a href="#">Confidentialité</a>
-                </p>
-
-
+                <button type="submit" id="sign-up__button">Connexion</button>
             </form>
         </div>
 

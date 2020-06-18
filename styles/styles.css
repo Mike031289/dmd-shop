@@ -104,7 +104,7 @@
                                                                                                                             /*dropdown-button*/
                                                                                                                             
                                                                                                                             .opinion__SignUp--btn {
-                                                                                                                                background-color: #1e3149;
+                                                                                                                                background-color: #004d80;
                                                                                                                                 padding: 10px;
                                                                                                                                 border-radius: 5px;
                                                                                                                                 font-weight: bold;
@@ -117,7 +117,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             #userOpinion__btn {
-                                                                                                                                background-color: #1e3149;
+                                                                                                                                background-color: #004d80;
                                                                                                                                 color: white;
                                                                                                                                 padding: 10px;
                                                                                                                                 border-radius: 5px;
@@ -140,7 +140,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .Collection__btn--active {
-                                                                                                                                background-color: #1e3149;
+                                                                                                                                background-color: #004d80;
                                                                                                                                 padding: 12px;
                                                                                                                                 border-radius: 5px;
                                                                                                                                 line-height: 30px;
@@ -170,7 +170,7 @@
                                                                                                                             
                                                                                                                             .btn__shopping {
                                                                                                                                 text-decoration: none;
-                                                                                                                                background-color: #1e3149;
+                                                                                                                                background-color: #004d80;
                                                                                                                                 color: whitesmoke;
                                                                                                                                 padding: 13px;
                                                                                                                                 font-style: normal;
@@ -561,19 +561,35 @@
                                                                                                                                 margin-top: 10px;
                                                                                                                             }
                                                                                                                             /*Sign-Up*/
+                                                                                                                            /*Sign-In*/
                                                                                                                             
-                                                                                                                            #sign-up {
+                                                                                                                            #sign-up,
+                                                                                                                            #sign-in {
                                                                                                                                 text-align: center;
+                                                                                                                                border-radius: 5px;
+                                                                                                                                border: 1px solid grey;
+                                                                                                                                height: auto;
+                                                                                                                                width: 550px;
+                                                                                                                                margin: 30px auto;
+                                                                                                                                position: relative;
+                                                                                                                                padding: 10px;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            #sign-up input {
-                                                                                                                                width: 500px;
+                                                                                                                            #sign-up input,
+                                                                                                                            #sign-in input {
+                                                                                                                                width: 400px;
                                                                                                                                 padding: 10px;
                                                                                                                                 font-size: 15px;
                                                                                                                                 border: none;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            #sign-up i {
+                                                                                                                            #sign-up #password,
+                                                                                                                            #sign-in #password {
+                                                                                                                                width: 380px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up i,
+                                                                                                                            #sign-in i {
                                                                                                                                 font-size: x-large;
                                                                                                                                 padding: 5px;
                                                                                                                                 border: 1px solid grey;
@@ -583,22 +599,30 @@
                                                                                                                             .sign-up__remise {
                                                                                                                                 color: red;
                                                                                                                             }
-                                                                                                                            /*Sign-In*/
                                                                                                                             
-                                                                                                                            #sign-in {
-                                                                                                                                text-align: center;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            #sign-in input {
-                                                                                                                                width: 500px;
-                                                                                                                                padding: 10px;
-                                                                                                                                font-size: 15px;
+                                                                                                                            #sign-up .fa-eye-slash,
+                                                                                                                            #sign-in .fa-eye-slash {
                                                                                                                                 border: none;
+                                                                                                                                font-size: small;
+                                                                                                                                cursor: pointer;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            #sign-in i {
+                                                                                                                            #sign-in h4,
+                                                                                                                            #sign-up h4 {
                                                                                                                                 font-size: x-large;
-                                                                                                                                padding: 5px;
-                                                                                                                                border: 1px solid grey;
-                                                                                                                                border-radius: 5px;
+                                                                                                                                color: #004d80;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up a {
+                                                                                                                                color: hsl(212, 58%, 42%);
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-up__button,
+                                                                                                                            #sign-in__button {
+                                                                                                                                background-color: #004d80;
+                                                                                                                                color: white;
+                                                                                                                                width: 450px;
+                                                                                                                                padding: 10px;
+                                                                                                                                cursor: pointer;
+                                                                                                                                border-radius: 5em;
                                                                                                                             }
