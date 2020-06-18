@@ -141,27 +141,26 @@
                                                                                                                             
                                                                                                                             .Collection__btn--active {
                                                                                                                                 background-color: #004d80;
-                                                                                                                                padding: 12px;
-                                                                                                                                border-radius: 5px;
-                                                                                                                                line-height: 30px;
-                                                                                                                                border: 1px solid black;
                                                                                                                                 box-shadow: 4px 3px 4px 3px;
-                                                                                                                                width: 250px;
                                                                                                                                 margin: 20px 80px 20px 160px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .collection__btn--disable {
+                                                                                                                                margin: 20px 160px 20px 80px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .Collection__btn--active,
+                                                                                                                            .collection__btn--disable {
+                                                                                                                                padding: 5px;
+                                                                                                                                line-height: 20px;
+                                                                                                                                border: 1px solid black;
+                                                                                                                                width: 250px;
+                                                                                                                                border-radius: 5px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .Collection__btn--active p {
                                                                                                                                 color: white;
                                                                                                                                 font-weight: bold;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            .collection__btn--disable {
-                                                                                                                                padding: 12px;
-                                                                                                                                line-height: 30px;
-                                                                                                                                border-radius: 5px;
-                                                                                                                                border: 1px solid black;
-                                                                                                                                width: 250px;
-                                                                                                                                margin: 20px 160px 20px 80px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .collection__btn--disable p {
