@@ -571,7 +571,7 @@
                                                                                                                                 width: 550px;
                                                                                                                                 margin: 30px auto;
                                                                                                                                 position: relative;
-                                                                                                                                padding: 10px;
+                                                                                                                                padding: 30px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             #sign-up input,
@@ -624,4 +624,34 @@
                                                                                                                                 padding: 10px;
                                                                                                                                 cursor: pointer;
                                                                                                                                 border-radius: 5em;
+                                                                                                                                font-size: 15px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            #sign-in .fa-facebook {
+                                                                                                                                color: white;
+                                                                                                                                width: 435px;
+                                                                                                                                background-color: #004d80;
+                                                                                                                                padding: 12px;
+                                                                                                                                border: 1px solid grey;
+                                                                                                                                cursor: pointer;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .sign-in__byfacebook,
+                                                                                                                            .sign-in__byfacebook:hover {
+                                                                                                                                color: white;
+                                                                                                                                text-decoration: none;
+                                                                                                                                padding-right: 80px;
+                                                                                                                                font-size: 20px;
+                                                                                                                                padding-left: 50px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .password-init {
+                                                                                                                                text-decoration: none;
+                                                                                                                                color: hsl(212, 58%, 42%);
+                                                                                                                                float: right;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .password-init:hover {
+                                                                                                                                color: hsl(162, 80%, 41%);
+                                                                                                                                text-decoration: underline;
                                                                                                                             }
