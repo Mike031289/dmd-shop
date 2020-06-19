@@ -651,7 +651,14 @@
                                                                                                                                 float: right;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .password-init:hover {
+                                                                                                                            .password-init:hover,
+                                                                                                                            .new-user:hover {
                                                                                                                                 color: hsl(162, 80%, 41%);
                                                                                                                                 text-decoration: underline;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .new-user {
+                                                                                                                                color: hsl(212, 58%, 42%);
+                                                                                                                                float: left;
+                                                                                                                                font-size: 20px;
                                                                                                                             }
