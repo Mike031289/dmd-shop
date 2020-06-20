@@ -568,7 +568,7 @@
                                                                                                                                 border-radius: 5px;
                                                                                                                                 border: 1px solid grey;
                                                                                                                                 height: auto;
-                                                                                                                                width: 550px;
+                                                                                                                                width: 580px;
                                                                                                                                 margin: 30px auto;
                                                                                                                                 position: relative;
                                                                                                                                 padding: 30px;
@@ -649,6 +649,18 @@
                                                                                                                                 text-decoration: none;
                                                                                                                                 color: hsl(212, 58%, 42%);
                                                                                                                                 float: right;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .terms {
+                                                                                                                                color: grey;
+                                                                                                                                font-size: small;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .terms a,
+                                                                                                                            a:hover {
+                                                                                                                                text-decoration: none;
+                                                                                                                                color: hsl(212, 58%, 42%);
+                                                                                                                                font-style: oblique;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .password-init:hover,
