@@ -88,8 +88,8 @@
                 <div class="product">
                     <a href="#" class="product__link">
                         <i class="material-icons">favorite_border</i>
-                        <img src="https://static.zara.net/photos///2020/I/0/1/p/7839/002/712/2/w/2024/7839002712_9_1_1.jpg?ts=1593157882393" alt="nouvelle_arrivage_1">
-                        <h3>Robe d'été</h3>
+                        <img src="https://static.pullandbear.net/2/photos//2020/I/0/2/p/5694/512/433/5694512433_2_6_8.jpg?t=1590503040921&imwidth=375" alt="nouvelle_arrivage_1">
+                        <h3>Jeans homme coupe fit</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
 
@@ -97,7 +97,7 @@
                 <div class="product">
                     <a href="#" class="product__link">
                         <i class="material-icons">favorite_border</i>
-                        <img src="https://images.asos-media.com/products/tommy-hilfiger-sweat-shirt-authentique-confort-avec-bandes-laterales-a-logo-bleu-marine-chine/12193204-1-navymarl?$n_480w$&wid=476&fit=constrain" alt="nouvelle_arrivage_1">
+                        <img src="https://static.pullandbear.net/2/photos//2020/V/0/2/p/5694/517/833/5694517833_2_1_8.jpg?t=1589995278476&imwidth=1280" alt="nouvelle_arrivage_1">
                         <h3>Jeans homme coupe fit</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
@@ -105,8 +105,8 @@
                 <div class="product">
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
-                        <img src="https://static.zara.net/photos///2020/I/0/1/p/6873/029/933/5/w/2024/6873029933_9_1_1.jpg?ts=1593158000117" alt="nouvelle arrivage">
-                        <h3>Haut et bas d'été</h3>
+                        <img src="https://images.asos-media.com/products/tommy-hilfiger-sweat-shirt-authentique-confort-avec-bandes-laterales-a-logo-bleu-marine-chine/12193204-1-navymarl?$n_480w$&wid=476&fit=constrain" alt="nouvelle_arrivage_1">
+                        <h3>Jeans homme coupe fit</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="product">
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
-                        <img src="https://static.zara.net/photos///2020/V/0/2/p/0722/400/250/2/w/2088/0722400250_2_4_1.jpg?ts=1579168442104" alt="nouvelle_arrivage_1">
+                        <img src="\Users\Asus\Pictures\Project-dmd\jeans_1.jfif" alt="nouvelle_arrivage_1">
                         <h3>Jeans homme coupe fit</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
@@ -129,7 +129,7 @@
                 <div class="product">
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
-                        <img src="https://static.zara.net/photos///2020/V/M/2/p/0000/007/149/2/w/1337/0000007149_9_2_1.jpg?ts=1589194933193" alt="nouvelle_arrivage_1">
+                        <img src="\Users\Asus\Pictures\Project-dmd\jeans_1.jfif" alt="nouvelle_arrivage_1">
                         <h3>Jeans homme coupe fit</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
