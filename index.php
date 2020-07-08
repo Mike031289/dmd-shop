@@ -98,7 +98,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">favorite_border</i>
                         <img src="https://images.asos-media.com/products/tommy-hilfiger-sweat-shirt-authentique-confort-avec-bandes-laterales-a-logo-bleu-marine-chine/12193204-1-navymarl?$n_480w$&wid=476&fit=constrain" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Pull homme</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -114,7 +114,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="https://images.asos-media.com/products/pullbear-rolling-stones-sweat-shirt-noir-delave/14556924-1-black?$n_320w$&wid=317&fit=constrain" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Pull homme </h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -122,7 +122,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="https://static.zara.net/photos///2020/V/0/2/p/0722/400/250/2/w/2088/0722400250_2_4_1.jpg?ts=1579168442104" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Jeans & T-shirt sans motif</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -130,7 +130,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="//lp2.hm.com/hmgoepprod?set=quality[79],source[/73/13/7313e507b86ae1cf75a19168bcd905dc4cec7119.jpg],origin[dam],category[ladies_cardigansjumpers_cardigans],type[LOOKBOOK],res[l],hmver[1]&call=url[file:/product/fullscreen]" alt="nouvelle arrivage">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Veste femme</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -138,7 +138,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="//lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/c7/2cc793552ff795f45a3825eb18530b199e3ec61a.jpg],origin[dam],category[men_tshirtstanks_shortsleeve],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>T-shirt Noir coton</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -146,7 +146,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="//lp2.hm.com/hmgoepprod?set=quality[79],source[/d2/bd/d2bd701749e6f595ae22e22d11f39132811d7af8.jpg],origin[dam],category[ladies_cardigansjumpers_cardigans],type[LOOKBOOK],res[l],hmver[1]&call=url[file:/product/fullscreen]" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Haut de soirée femme</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -154,7 +154,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="https://static.zara.net/photos///2020/V/0/1/p/2761/041/712/3/w/1230/2761041712_2_1_1.jpg?ts=1581930688203" alt="nouvelle_arrivage_1">"
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Ensemble Blanc femme</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -162,7 +162,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="//lp2.hm.com/hmgoepprod?set=quality[79],source[/5d/39/5d3952171b328434e83c800138e8534bf2b2c63f.jpg],origin[dam],category[men_tshirtstanks_shortsleeve],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>T-shirt d'été</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -170,7 +170,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="https://static.zara.net/photos///2020/I/0/1/p/7805/181/711/2/w/1337/7805181711_9_3_1.jpg?ts=1594031728568" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>Ensemble blanc femme</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
@@ -178,7 +178,7 @@
                     <a href="#" class="product__link">
                         <i class="material-icons">   favorite_border</i>
                         <img src="//lp2.hm.com/hmgoepprod?set=quality[79],source[/27/fa/27fa38dc8bf9843ff5554de5f0f2583b3b4a2a3a.jpg],origin[dam],category[men_tshirtstanks_shortsleeve],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]" alt="nouvelle_arrivage_1">
-                        <h3>Jeans homme coupe fit</h3>
+                        <h3>T-shirt blanc été</h3>
                         <p>Disponible en toutes tailles<span class="price">29,99 €</span></p>
                     </a>
                 </div>
