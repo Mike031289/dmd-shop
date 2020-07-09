@@ -26,7 +26,7 @@
                                 <a href="file:///C:/Users/Asus/Projet-dmd-shop/index.html#">Nouvelle Collection</a>
                             </di>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE </br>
+                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE </a></br>
                                 <?php 
                                     $userIsConnected = true;
                                     $userName = '<em>Mike</em>';
@@ -39,13 +39,25 @@
                                         echo 'Veuillez vous connecter';
                                     }
                                 ?>
-                                </a>
+                                
                             <di class="dropdown-content">
                                 <a href="sign-in.html">sign-in</a>
                                 <a href="sign-up.html">sign-up</a>
                             </di>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a>
+                        <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a></br>
+                                <?php 
+                                    $productInpannier = 0;
+                                    
+                                if( !$productInpannier )
+                                    {
+                                        echo '<em>Vous avez ' . $productInpannier++. ' article </em>'  ;
+                                    }
+                                else
+                                    {
+                                        echo '<em>Vous avez ' . $productInpannier. ' article </em>';
+                                    }
+                                ?>
                             <di class="dropdown-content pannier">
                                 <i class="fa fa-shopping-cart"><span class="badge">0</span>
                                </i> <br>
