@@ -26,7 +26,20 @@
                                 <a href="file:///C:/Users/Asus/Projet-dmd-shop/index.html#">Nouvelle Collection</a>
                             </di>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE</a>
+                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE </br>
+                                <?php 
+                                    $userIsConnected = true;
+                                    $userName = '<em>Mike</em>';
+                                if($userIsConnected)
+                                    {
+                                        echo '<em> Bonjour </em>' .$userName. ' ! '  ;
+                                    }
+                                else
+                                    {
+                                        echo 'Veuillez vous connecter';
+                                    }
+                                ?>
+                                </a>
                             <di class="dropdown-content">
                                 <a href="sign-in.html">sign-in</a>
                                 <a href="sign-up.html">sign-up</a>
@@ -38,7 +51,6 @@
                                </i> <br>
                                 <em>Votre panier est vide !</em>
                             </di>
-
                         </li>
                     </ul>
                 </nav>
@@ -47,14 +59,16 @@
 
         <!--Section-1 partie reservé pour la pub avec desimages en fond qui vont déffiler-->
         <section id="advertising">
-
-            <div class="advertising__content">
+        <a> <strong><?php echo  date(' d/m/y h:i:s ') ; ?></strong> </a>
+            <div class="advertising__content">                
                 <h2 class="logo">dmd</span><br><span class="logo__extention">Since-2012</span>
                 </h2>
                 <p>Jusqu'à 20% de Remise sur vos commandes</p>
                 <a href="#" class="btn__shopping">SHOPPING</a>
             </div>
-        </section>
+        </section> 
+        
+       
         <!--Section 2 des nouvelles collections mises en premier plan sur la page d'accueil-->
         <section id="collection">
             <div class="Collection__btn">
