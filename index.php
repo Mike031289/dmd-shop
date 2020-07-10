@@ -49,7 +49,7 @@
                                 <?php 
                                     $productInpannier = 0;
                                     
-                                if( !$productInpannier )
+                                if( $productInpannier > 0 )
                                     {
                                         echo '<em>Vous avez ' . $productInpannier++. ' article </em>'  ;
                                     }
