@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles/styles.css" rel="stylesheet">
@@ -47,16 +46,16 @@
                         </li>
                         <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a></br>
                                 <?php 
-                                    $productInpannier = 0;
+                                    $productInBasket = 0;
                                     
-                                if( $productInpannier > 0 )
+                             if( $productInBasket < 100 )
                                     {
-                                        echo '<em>Vous avez ' . $productInpannier++. ' article </em>'  ;
+                                        echo '<em>Vous avez ' . $productInBasket . ' articles </em>'  ;
+                                        $productInBasket++;
                                     }
-                                else
-                                    {
-                                        echo '<em>Vous avez ' . $productInpannier. ' article </em>';
-                                    }
+                            else {
+                                echo ' Veuillez ajouter vos articles au pannier';
+                            }
                                 ?>
                             <di class="dropdown-content pannier">
                                 <i class="fa fa-shopping-cart"><span class="badge">0</span>
