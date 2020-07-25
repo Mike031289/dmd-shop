@@ -13,36 +13,9 @@
 <body>
     <div id="container">
         <div class="SignIn-SignUp">
-            <header>
-                <div id="header" class="sign-up__header">
-                    <h1 class="header__title">Don Mike Design Shop <span class="header__title--red-dote">.</span></h1>
-                    <nav class="header__nav">
-                        <ul class="header__nav--liste">
-                            <li class="dropdown"><a href="#" class="dropbtn">ACCUEIL</a>
-                                <di class="dropdown-content">
-                                    <a href="#">Homme</a>
-                                    <a href="#">Femme</a>
-                                    <a href="http://localhost:9080/dmd-shop/index.html">Nouvelle Collection</a>
-                                </di>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE</a>
-                                <di class="dropdown-content">
-                                    <a href="sign-in.html">sign-in</a>
-                                    <a href="#">sign-up</a>
-                                </di>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a>
-                                <di class="dropdown-content pannier">
-                                    <i class="fa fa-shopping-cart"><span class="badge">0</span>
-                           </i> <br>
-                                    <em>Votre panier est vide !</em>
-                                </di>
-
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+    <header>
+        <?php include('header.php'); ?>
+    </header>
 
             <form>
                 <div id="sign-up">
@@ -90,22 +63,6 @@
                 </div>
             </form>
 
-
-
-            <footer class="SignUp-footer">
-                <div class="copyright">
-                    <div class="copyright__logo">
-                        dmd <br><span class="copyright__logo--extention">Since-2012</span>
-                    </div>
-                    <p>
-                        The content of this site is protected by the law of the Copy Right and belongs to <strong>dmd-Shop</strong> <br>Copy Right 2012-2020 Reserved By <strong>dmd-Company<i class="material-icons">copyright</i></strong>
-                    </p>
-                    <strong>Paris</strong>
-                    <p> ____________ </p>
-
-
-                </div>
-            </footer>
         </div>
     </div>
 </body>

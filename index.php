@@ -12,61 +12,9 @@
 
 <body>
     <div id="container">
-
-        <header>
-            <div id="header">
-                <h1 class="header__title">Don Mike Design Shop <span class="header__title--red-dote">.</span></h1>
-                <nav class="header__nav">
-                    <ul class="header__nav--liste">
-                        <li class="dropdown"><a href="#" class="dropbtn">ACCUEIL</a>
-                            <di class="dropdown-content">
-                                <a href="#">Homme</a>
-                                <a href="#">Femme</a>
-                                <a href="file:///C:/Users/Asus/Projet-dmd-shop/index.html#">Nouvelle Collection</a>
-                            </di>
-                        </li>
-                        <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE </a></br>
-                                <?php 
-                                    $userIsConnected = true;
-                                    $userName = '<em>Mike</em>';
-                                if($userIsConnected)
-                                    {
-                                        echo '<em> Bonjour </em>' .$userName. ' ! '  ;
-                                    }
-                                else
-                                    {
-                                        echo 'Veuillez vous connecter';
-                                    }
-                                ?>
-                                
-                            <di class="dropdown-content">
-                                <a href="sign-in.html">sign-in</a>
-                                <a href="sign-up.html">sign-up</a>
-                            </di>
-                        </li>
-                        <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a></br>
-                                <?php 
-                                    $productInBasket = 0;
-                                    
-                             if( $productInBasket < 100 )
-                                    {
-                                        echo '<em>Vous avez ' . $productInBasket . ' articles </em>'  ;
-                                        $productInBasket++;
-                                    }
-                            else {
-                                echo ' Veuillez ajouter vos articles au pannier';
-                            }
-                                ?>
-                            <di class="dropdown-content pannier">
-                                <i class="fa fa-shopping-cart"><span class="badge">0</span>
-                               </i> <br>
-                                <em>Votre panier est vide !</em>
-                            </di>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header>
+        <?php include('header.php'); ?>
+    </header>   
 
         <!--Section-1 partie reservé pour la pub avec desimages en fond qui vont déffiler-->
         <section id="advertising">
@@ -310,52 +258,9 @@
         </section>
 
         <!--Pied de la page-->
-        <footer id="footer">
-            <div class="footer__information">
-
-                <ul class="">
-
-                    <li><a href="#">HOMME</a>
-                    </li><br>
-                    <li><a href="#">FEMME</a>
-                    </li><br>
-                    <li><a href="#">NEW COLLECTION</a>
-                    </li>
-
-                </ul>
-                <p>
-                    <a href="sign-up.html">INSCRIPTION</a><br><br> Devenez menmbre et <br> bénéficiez de -20%<br>sur vos commandes
-                </p>
-                <p>
-                    <a href="">EN SAVOIR PLUS SUR NOUS</a><br><br>
-                    <strong>dmd-shop</strong> est une boutique en ligne<br> qui vous propose ses services de vente de vêtements de
-                    <br> qualité au design exceptionnel de notre marque <strong>dmd</strong>
-
-                </p>
-                <p class="icons"><a href="#">CONTACTES</a><br><br>
-
-                    <a href=""><i class="fa fa-envelope"></i> dmd-shop@gmail.com </a><br>
-                    <a href=""><i class="fa fa-facebook-square"></i> dmd-shop Official</a><br>
-                    <a href=""><i class="fa fa-instagram"> </i> dmd-shop Official</a><br>
-                    <a href=""><i class="fa fa-mobile"> </i> +336 62 27 29 75</a><br>
-                </p>
-            </div>
-            <div class="copyright">
-                <div class="copyright__logo">
-                    dmd <br><span class="copyright__logo--extention">Since-2012</span>
-                </div>
-                <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.html">dmd-shop</a> accessible via le lien suivant :
-                    <a href="#">Protection de vos données personnelles</a>
-                </p>
-                <p>
-                    The content of this site is protected by the law of the Copy Right and belongs to <strong>dmd-Shop</strong> <br>Copy Right 2012-2020 Reserved By <strong>dmd-Company<i class="material-icons">copyright</i></strong>
-                </p>
-                <strong>Paris</strong>
-                <p> ____________ </p>
-
-
-            </div>
-        </footer>
+    <footer>
+        <?php include('footer.php'); ?>
+    </footer>
     </div>
 </body>
 
