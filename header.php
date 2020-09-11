@@ -4,11 +4,11 @@
                 <h1 class="header__title">Don Mike Design Shop <span class="header__title--red-dote">.</span></h1>
                 <nav class="header__nav">
                     <ul class="header__nav--liste">
-                        <li class="dropdown"><a href="#" class="dropbtn">ACCUEIL</a>
+                        <li class="dropdown"><a href="index.php" class="dropbtn">ACCUEIL</a>
                             <di class="dropdown-content">
                                 <a href="#">Homme</a>
                                 <a href="#">Femme</a>
-                                <a href="file:///C:/Users/Asus/Projet-dmd-shop/index.html#">Nouvelle Collection</a>
+                                <a href="index.php">Nouvelle Collection</a>
                             </di>
                         </li>
                         <li class="dropdown"><a href="#" class="dropbtn">MON COMPTE </a></br>
@@ -26,8 +26,8 @@
                                 ?>
                                 
                             <di class="dropdown-content">
-                                <a href="sign-in.html">sign-in</a>
-                                <a href="sign-up.html">sign-up</a>
+                                <a href="sign-in.php">sign-in</a>
+                                <a href="sign-up.php">sign-up</a>
                             </di>
                         </li>
                         <li class="dropdown"><a href="#" class="dropbtn">MON PANNIER</a></br>

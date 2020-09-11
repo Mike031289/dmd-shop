@@ -7,12 +7,12 @@
                     </li><br>
                     <li><a href="#">FEMME</a>
                     </li><br>
-                    <li><a href="#">NEW COLLECTION</a>
+                    <li><a href="index.php">NEW COLLECTION</a>
                     </li>
 
                 </ul>
                 <p>
-                    <a href="sign-up.html">INSCRIPTION</a><br><br> Devenez menmbre et <br> bénéficiez de -20%<br>sur vos commandes
+                    <a href="sign-up.php">INSCRIPTION</a><br><br> Devenez menmbre et <br> bénéficiez de -20%<br>sur vos commandes
                 </p>
                 <p>
                     <a href="">EN SAVOIR PLUS SUR NOUS</a><br><br>
@@ -32,7 +32,7 @@
                 <div class="copyright__logo">
                     dmd <br><span class="copyright__logo--extention">Since-2012</span>
                 </div>
-                <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.html">dmd-shop</a> accessible via le lien suivant :
+                <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.php">dmd-shop</a> accessible via le lien suivant :
                     <a href="#">Protection de vos données personnelles</a>
                 </p>
                 <p>

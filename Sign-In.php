@@ -44,7 +44,7 @@
                     <button type="submit" id="sign-up__button">Connexion</button>
                     <br><br><br>
                     <a href="#" class="password-init">Mot de passe oublié ?</a>
-                    <a href="sign-up.html" class="new-user">Je suis nouveau je m'inscrit !</a>
+                    <a href="sign-up.php" class="new-user">Je suis nouveau je m'inscrit !</a>
                     <br><br><br>
                     <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.html">dmd-shop</a> accessible via le lien suivant :
                         <a href="#">Protection de vos données personnelles</a>

@@ -51,8 +51,8 @@
                     <br><br>
                     <button type="submit" id="sign-up__button">S'inscrire</button>
                     <br><br>
-                    <a href="sign-in.html" class="user">Déjà client je me connecte</a>
-                    <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.html">dmd-shop</a> accessible via le lien suivant :
+                    <a href="sign-in.php" class="user">Déjà client je me connecte</a>
+                    <p class="terms">Pour plus d’information, consulter la Politique de conﬁdentialité de <a href="index.php">dmd-shop</a> accessible via le lien suivant :
                         <a href="#">Protection de vos données personnelles</a>
                     </p>
                     <div class="form__contact">
